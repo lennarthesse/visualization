@@ -7,7 +7,7 @@
                 :class="{ active: !activeTab }"
                 @click="unselectTab()"
             >
-                #x2716; No selection
+                ⨉ No selection
             </button>
             <!-- Existing visualization tabs-->
             <button

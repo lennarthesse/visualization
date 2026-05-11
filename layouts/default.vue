@@ -9,8 +9,8 @@
 </template>
 
 <script setup>
-    import AppHeader from '~/layouts/components/AppHeader.vue';
-    import AppFooter from '~/layouts/components/AppFooter.vue';
+    import AppHeader from '@/layouts/components/AppHeader.vue';
+    import AppFooter from '@/layouts/components/AppFooter.vue';
 </script>
 
 <style scoped>
