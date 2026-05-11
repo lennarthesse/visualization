@@ -79,9 +79,9 @@ typings/
 
 # dotenv environment variables file
 .env
-.env.test
+.env.*
+!.env.example
 
-# parcel-bundler cache (https://parceljs.org/)
 .cache
 
 # Next.js build output
@@ -89,6 +89,9 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
+.nitro
+.data
+.output
 dist
 
 # Gatsby files
